@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Zookal_Admintheme
+ * @package     Admintheme
+ * @author      Cyrill Schumacher | {firstName}@{lastName}.fm | @SchumacherFM
+ * @copyright   Copyright (c) Zookal Pty Ltd
+ * @license     OSL - Open Software Licence 3.0 | http://opensource.org/licenses/osl-3.0.php
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <zookaladmintheme translate="title">
+                                        <title>Zookal Modules</title>
+                                        <children>
+                                            <zookaladmintheme translate="title">
+                                                <title>Zookal AdminTheme</title>
+                                                <children>
+                                                    <headerbar translate="title">
+                                                        <title>Header Bar (Environment)</title>
+                                                    </headerbar>
+                                                </children>
+                                            </zookaladmintheme>
+                                        </children>
+                                    </zookaladmintheme>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

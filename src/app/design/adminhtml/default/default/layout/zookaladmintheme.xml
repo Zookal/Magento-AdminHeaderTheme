@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="before_body_end">
+            <block after="-" type="zookaladmintheme/adminhtml_headerbar" name="zookaladmintheme.headerbar"/>
+        </reference>
+        <reference name="head">
+            <action method="addCss">
+                <name>zookaladmintheme/headerbar.css</name>
+            </action>
+        </reference>
+    </default>
+</layout>

@@ -1,0 +1,4 @@
+src/app/code/community/Zookal/Admintheme                                app/code/community/Zookal/Admintheme
+src/app/design/adminhtml/default/default/layout/zookaladmintheme.xml    app/design/adminhtml/default/default/layout/zookaladmintheme.xml
+src/app/etc/modules/Zookal_Admintheme.xml                               app/etc/modules/Zookal_Admintheme.xml
+src/skin/adminhtml/default/default/zookaladmintheme                     skin/adminhtml/default/default/zookaladmintheme

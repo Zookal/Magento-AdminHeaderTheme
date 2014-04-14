@@ -1,0 +1,16 @@
+{
+    "name": "zookal/admin-header-theme",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Magento Admin theme with header bar for displaying the version and environment in the backend",
+    "homepage": "http://www.zookal.com",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Cyrill Schumacher",
+            "email": "FirstName at LastName dot fm"
+        }
+    ]
+}

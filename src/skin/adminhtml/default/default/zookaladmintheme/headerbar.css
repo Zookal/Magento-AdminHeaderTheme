@@ -1,0 +1,45 @@
+#headerbar {
+    position    : absolute;
+    top         : 0px;
+    width       : 100%;
+    height      : 22px;
+    line-height : 22px;
+    font-weight : bold;
+    font-size   : 17px;
+}
+
+body.headerbar-added {
+    padding-top : 22px;
+}
+
+#headerbar span {
+    float : right;
+}
+
+#headerbar:before {
+    content        : attr(class);
+    text-transform : uppercase;
+}
+
+#headerbar span, #headerbar:before {
+    display    : inline-block;
+    height     : 22px;
+    padding    : 0px 10px;
+    margin     : 0px 25px;
+    background : #0c0c0c;
+}
+
+#headerbar.development {
+    background : #009900;
+    color      : #009900;
+}
+
+#headerbar.staging {
+    background : #F5B800;
+    color      : #F5B800;
+}
+
+#headerbar.production {
+    background : red;
+    color      : red;
+}
