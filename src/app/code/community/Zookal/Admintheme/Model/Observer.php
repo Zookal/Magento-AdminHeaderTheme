@@ -17,11 +17,9 @@ class Zookal_Admintheme_Model_Observer
     public function overrideTheme()
     {
         $theme = trim(Mage::getStoreConfig('design/admin/theme'));
-
         if (empty($theme)) {
             return null;
         }
-
         Mage::getDesign()->setArea('adminhtml')->setTheme($theme);
     }
 

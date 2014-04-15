@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!--
+<?xml version="1.0"?><!--
 /**
  * @category    Zookal_Admintheme
  * @package     Admintheme
@@ -32,7 +31,16 @@
                 <class>Zookal_Admintheme_Block</class>
             </zookaladmintheme>
         </blocks>
-
+        <events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <zookal_themeoverride_observer>
+                        <class>zookaladmintheme/observer</class>
+                        <method>overrideTheme</method>
+                    </zookal_themeoverride_observer>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
     </global>
 
     <adminhtml>
@@ -45,15 +53,6 @@
                     </zookal_admintheme_headerbar>
                 </observers>
             </adminhtml_block_html_before>
-
-            <adminhtml_controller_action_predispatch_start>
-                <observers>
-                    <zookal_themeoverride_observer>
-                        <class>zookaladmintheme/observer</class>
-                        <method>overrideTheme</method>
-                    </zookal_themeoverride_observer>
-                </observers>
-            </adminhtml_controller_action_predispatch_start>
         </events>
         <layout>
             <updates>
