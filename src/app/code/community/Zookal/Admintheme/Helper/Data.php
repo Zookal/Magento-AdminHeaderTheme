@@ -9,13 +9,6 @@
  */
 class Zookal_Admintheme_Helper_Data extends Mage_Core_Helper_Abstract
 {
-    /**
-     * @return string
-     */
-    public function getCDNMediaURL()
-    {
-        return Mage::getStoreConfig('zookaladmintheme/cdn/mediaurl');
-    }
 
     /**
      * @return string
