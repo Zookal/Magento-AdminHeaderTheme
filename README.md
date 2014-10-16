@@ -9,6 +9,9 @@ Provides also a header bar which shows you on which environment you are working 
 - Orange: staging
 - Red: production
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Zookal/Magento-AdminHeaderTheme/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Zookal/Magento-AdminHeaderTheme/?branch=master)
+
+[![Build Status](https://scrutinizer-ci.com/g/Zookal/Magento-AdminHeaderTheme/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Zookal/Magento-AdminHeaderTheme/build-status/master)
 
 License
 -------
