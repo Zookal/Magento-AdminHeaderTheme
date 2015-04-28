@@ -13,6 +13,17 @@ Provides also a header bar which shows you on which environment you are working 
 
 [![Build Status](https://scrutinizer-ci.com/g/Zookal/Magento-AdminHeaderTheme/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Zookal/Magento-AdminHeaderTheme/build-status/master)
 
+![Config](https://raw.githubusercontent.com/Zookal/Magento-AdminHeaderTheme/master/printscreens/config.png)
+
+![development](https://raw.githubusercontent.com/Zookal/Magento-AdminHeaderTheme/master/printscreens/env_dev.png)
+
+![staging](https://raw.githubusercontent.com/Zookal/Magento-AdminHeaderTheme/master/printscreens/env_staging.png)
+
+![production](https://raw.githubusercontent.com/Zookal/Magento-AdminHeaderTheme/master/printscreens/env_prod.png)
+
+Looks cool! 😃
+
+
 License
 -------
 
