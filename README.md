@@ -23,6 +23,7 @@ Provides also a header bar which shows you on which environment you are working 
 
 Looks cool! 😃
 
+Please update your deployment process if you want to automatically change the version string.
 
 License
 -------
